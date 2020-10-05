@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* body {
+  padding: 0 150px;
+} */
+.firstSection {
+  background-color: #f0fff0;
+  padding: 25px 150px 25px;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  /* margin-top: 25px; */
+  margin-bottom: 100px;
+ 
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.caption{
+  color: #FD511A;
+}
+.logo {
+  margin-right: auto;
+}
+.button {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #21b573;
+  color: white;
+  cursor: pointer;
+  outline: 0;
+}
+.button:hover {
+  position: relative;
+  top: 1px;
+}
+span {
+  color: #21b573;
+}
+.mainButton {
+  margin-top: 50px;
+}
+.study {
+  width: 400px;
+}
+.middle {
+  display: flex;
+  align-items: center;
+}
+.middle .caption {
+  margin-bottom: 10px;
+}
+.middle .description {
+  width: 400px;
+  margin-right: 150px;
+}
+.middle h1 {
+  font-size: 47px;
+  line-height: 60px;
+}
+
+/* ------------middle section------------ */
+
+.icon {
+  width: 50px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  text-align: center;
+  /* #F8FFFB; */
+  margin-bottom: 100px;
+  padding: 0 150px
+}
+.card .cardItem {
+  background: #f8fffb;
+  padding: 30px 30px;
+  
+}
+.card .testCard {
+  background: white;
+  padding: 30px 30px;
+  box-shadow: 5px 5px 10px grey;
+  background: #f0fff0;
+  border-radius: 10px;
+}
+
+/* ...............courses section.................... */
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+.courses .cardItems {
+  background-color: white;
+  padding-left: 22px;
+  margin-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  box-shadow: 1px 1px 3px grey;
+  padding-right: 22px;
+}
+.courses img {
+  width: 250px;
+}
+.courses {
+  margin-bottom: 100px;
+}
+
+.courses .coursesIcon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.cardCustomFooter {
+  display: flex;
+  font-size: 13px;
+  font-weight: bold;
+}
+.cardLeftFooter {
+  display: flex;
+  margin-right: auto;
+}
+.cardRightFooter {
+  display: flex;
+}
+
+.cardItems {
+  border-radius: 10px;
+}
+.testimonial {
+  margin-bottom: 100px;
+}
+.testimonial img {
+  width: 100px;
+  float: left;
+}
+.statement p {
+  position: relative;
+  top: 25px;
+  left: 60px;
+}
+.statement {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* ............footer.............. */
+
+footer {
+  background: #282531;
+  color: white;
+  font-size: small;
+  padding: 60px 100px 20px;
+}
+.footerSection {
+  display: flex;
+}
+.items1 {
+  width: 42%;
+}
+.items {
+  margin: 0 40px;
+}
+.items ul {
+  list-style: none;
+}
+footer p {
+  text-align: center;
+  margin-top: 70px;
+}
+footer {
+  margin-top: 150px;
+}
